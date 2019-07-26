@@ -15,9 +15,9 @@
 - r - x = 5
 - r w - = 6
 - r w x = 7
-- 위 사항을 조합해서 퍼미션을 지정할수 있다.
+- 위 사항을 조합하여 퍼미션을 지정할 수 있다.
 - 예시는 다음과 같다.
-- --- --- --- = chmod 000 permission : 사용자,그룹,방문자 모두 아무 권한이 없다.
-- rwx --- --- = chmod 700 permission : 사용자만 읽기,쓰기,실행 모든 권한이 있다.
-- rwx r-x r-x = chmod 755 permission , 그룹,방문자는 읽기와 실행 권한이 있다.
-- rwx rwx rwx = chmod 777 permission , 사용자,그룹,방문자 모두 읽기,쓰기,실행 권한이 있다.
+- --- --- --- = chmod 000 permission : 사용자, 그룹, 방문자 모두 아무 권한이 없다.
+- rwx --- --- = chmod 700 permission : 사용자만 읽기, 쓰기, 실행 모든 권한이 있다.
+- rwx r-x r-x = chmod 755 permission : 그룹, 방문자는 읽기와 실행 권한이 있다.
+- rwx rwx rwx = chmod 777 permission : 사용자, 그룹, 방문자 모두 읽기, 쓰기, 실행 권한이 있다.

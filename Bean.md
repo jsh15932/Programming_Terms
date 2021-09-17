@@ -1,0 +1,9 @@
+- Spring이 생성 및 제어를 담당하는 오브젝트를 말한다.
+- Bean의 주요 속성은 다음과 같다.
+- 클래스는 정규화된 자바 클래스의 이름을 말한다.
+- id는 Bean의 고유 식별자를 말한다.
+- scope는 객체의 범위를 말한다.
+- Bean Factory는 Spring이 IoC를 담당하는 핵심 컨테이너이다.
+- Bean을 등록, 생성, 조회, 반환하는 기능을 담당한다.
+- 일반적으로는 이를 확장한 Application Context를 이용한다.
+- Application Context는 Spring이 제공하는 애플리케이션 기능을 모두 포함한다.

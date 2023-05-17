@@ -1,0 +1,11 @@
+- 자바 기반 애플리케이션의 데이터를 DB에 저장하거나, DB에 저장된 데이터를 사용할 수 있도록 하는 자바 기반 API이다.
+- 자바 기반 애플리케이션에서 DB에 접근하기 위해 JDBC API를 사용하여 데이터베이스에 연동할 수 있다.
+- DB에서 쿼리를 통해 데이터를 처리하고 업데이트하는 방법을 제공한다.
+- 3가지 기능을 표준 인터페이스로 정의하여 제공하며, 이는 다음과 같다.
+- 연결 : java.sql.Connection
+- SQL 내용 : java.sql.Statement
+- SQL 요청 응답 : java.sql.ResultSet
+- JDBC의 동작 과정은 다음과 같다.
+- 자바 애플리케이션 -> JDBC API -> JDBC Driver -> DB
+- JDBC API의 동작 과정은 다음과 같다.
+- JDBC Driver Loading -> Connection 객체 생성 -> Statement 객체 생성 -> 쿼리 실행 -> ResultSet 객체로부터 데이터 조회 -> ResultSet 객체 Close -> Statement 객체 Close -> Connection 객체 Close
